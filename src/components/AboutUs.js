@@ -30,7 +30,7 @@ const AboutUs = () => {
       <Paper className={classes.paper}>
         <Grid container spacing={2}>
           <Grid item xs={12}>
-            <Typography variant='h3'>About Us</Typography>
+            <Typography variant='h3'>about us</Typography>
           </Grid>
 
           <Grid item>
