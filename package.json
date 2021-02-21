@@ -1,7 +1,7 @@
 {
-  "homepage": "https://okuve.github.io/portfolio",
-  "name": "okuve-portfolio",
-  "version": "0.2.0",
+  "homepage": "https://okuve.github.io",
+  "name": "okuve",
+  "version": "0.3.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
