@@ -1,6 +1,5 @@
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Paper } from "@material-ui/core";
-import { red } from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -10,15 +9,11 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     margin: "auto",
     maxWidth: 800,
-    marginTop: 190,
+    marginTop: 10,
   },
   brandTitle: {
-    //  emerald #028A0F
-    //  Sage #728C69
-    //  Basil #32612D
-    //  Seafoam #3DEF97
-
-    color: "#728C69",
+    color: "#5b2434",
+    fontFamily: "Sail, cursive",
   },
 }));
 

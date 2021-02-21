@@ -5,6 +5,7 @@ import Intro from "./components/Intro";
 import OurServices from "./components/OurServices";
 import ContactUs from "./components/ContactUs";
 import SectionDivider from "./components/SectionDivider";
+import Branding from "./components/Branding";
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -17,6 +18,7 @@ function App() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
+      <Branding />
       <Intro />
       <SectionDivider />
       <OurServices />
