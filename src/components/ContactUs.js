@@ -21,15 +21,16 @@ const ContactUs = () => {
       <Paper className={classes.paper}>
         <Grid container spacing={2}>
           <Grid item xs={12}>
-            <Typography variant='h3'>What to get in touch?</Typography>
+            <Typography variant='h3'>Want to get in touch with us?</Typography>
           </Grid>
 
           <Grid item xs={12}>
-            <Typography variant='body1'>
+            <Typography variant='h6' component='h2' gutterBottom>
               Drop an email to{" "}
               <Link href='mailto:info@okuve.com' onClick={preventDefault}>
                 info@okuve.com
-              </Link>
+              </Link>{" "}
+              our team will revert to your query.
             </Typography>
           </Grid>
         </Grid>
